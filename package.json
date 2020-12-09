@@ -1,5 +1,5 @@
 {
-  "name": "react-starter",
+  "name": "gitbuff",
   "version": "2.0.0",
   "description": "React webapp starter",
   "main": "index.js",
@@ -41,7 +41,6 @@
     "@babel/preset-react": "^7.12.7",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "auto-changelog": "^2.2.1",
     "babel-eslint": "10.1.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-import": "^1.13.3",
@@ -56,21 +55,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerosoul/react-starter.git"
+    "url": "git+https://github.com/zerosoul/gitbuff.git"
   },
   "keywords": [
-    "template",
+    "speedup",
     "react",
     "frontend",
     "tool",
-    "amazing"
+    "github"
   ],
   "author": "Tristan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zerosoul/react-starter/issues"
+    "url": "https://github.com/zerosoul/gitbuff/issues"
   },
-  "homepage": "http://works.yangerxiao.com/react-starter",
+  "homepage": "https://zerosoul.github.io/gitbuff",
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
@@ -78,8 +77,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "deploy": "npm run build && gh-pages -d build",
-    "changelog": "auto-changelog -p --release-summary -l false --template changelog.template.hbs && git add CHANGELOG.md"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "browserslist": {
     "production": [
